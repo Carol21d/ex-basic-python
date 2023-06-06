@@ -15,3 +15,8 @@ for numero in range(21):
         break
     else:
         print("No fue encontrado el numero")
+
+
+for k in range(3):
+    for j in range(2):
+        print(f"{k} , {j}")
