@@ -42,9 +42,9 @@ print(sv)
 
 #4
 """
-Find out if string find is case sensitive
-What if a query string appers twice in the string?
-Write a program that asks console input and searches for a query.
+a)Find out if string find is case sensitive
+b)What if a query string appers twice in the string?
+c)Write a program that asks console input and searches for a query.
 """
 
 
@@ -55,3 +55,22 @@ else:
     print("Aparece mas de una vez ")
 print(phrase.count('G'))
 print(phrase.find('NOT FOUND'))
+
+
+ #version mejorada del ejercicio de arriba
+phrase_2 = "Write a program that asks console input and searches for a query"
+if phrase_2.count('a') >1:
+    print("La letra 'a' aparece más de una vez en el string")
+else:
+    print("La letra 'a' solo aparece una vez en el string")
+
+
+#4.c
+print("Introduce una palabra o frase: ")
+find_word= input("")
+if find_word.count("o") >1:
+    print(f"la frase es: {find_word} ")
+    print("letra 'o' fue encontrada más de una vez")
+else:
+    print(f"la frase es: {find_word} ")
+    print("la letra 'o' fue encontrada una vez en la frase")
