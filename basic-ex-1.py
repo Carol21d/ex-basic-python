@@ -5,10 +5,6 @@
 -Do the same as in 2, but make it sum x + y.
 """
 
-# 1
-number_1 = 11
-number_2 = 22
-print(number_1, number_2)
 
 # 2
 
@@ -18,3 +14,14 @@ numb_1 = int(numb_1)
 numb_2 = int(numb_2)
 result = numb_1 + numb_2
 print(f"el resultado es: {result}")
+
+"""
+-Try to print the word -lucky- inside s.
+-Try to print the day, month, year in the form -Today is 2/2/2016-
+"""
+
+s = "My lucky number is %d, what is yours?" % 7
+print(s[3:8])
+
+fecha = "Today is %d %d %d" % (2, 2, 2016)
+print(fecha)
