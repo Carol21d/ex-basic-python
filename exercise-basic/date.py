@@ -38,3 +38,7 @@ print(current_time.month)
 print(current_time.day)
 
 current_time = date(2023, 6, 15)
+
+current_time = date(current_time.year+1,
+                    current_time.month + 1, current_time.day+1)
+print(current_time.year, current_time.month, current_time.day)
