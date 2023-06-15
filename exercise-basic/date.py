@@ -1,5 +1,6 @@
 ### Dates ###
 
+from datetime import timedelta
 from datetime import date
 from datetime import time
 from datetime import datetime
@@ -42,3 +43,7 @@ current_time = date(2023, 6, 15)
 current_time = date(current_time.year+1,
                     current_time.month + 1, current_time.day+1)
 print(current_time.year, current_time.month, current_time.day)
+
+diff = year_2023 - now
+diff = year_2023.date() - current_time
+print(diff)
